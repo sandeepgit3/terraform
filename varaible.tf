@@ -22,3 +22,10 @@ variable "ami" {
   description = "Amazon Linux AMI"
   default = "ami-4fffc834"
 }
+
+variable "tag_bucket_name" {
+  description = "The Name tag to set for the S3 Bucket"
+  type        = string
+  default     = "sand123"
+}
+
